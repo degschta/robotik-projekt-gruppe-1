@@ -37,6 +37,29 @@ sudo apt-get install ros-noetic-joy
 ```
 Now you are able to controll the robot with your controller.
 
+## Setup in CoppeliaSim
+First of all start ROS Core in your terminal
+```
+roscore
+```
+Open new terminal in workspace root and run
+```
+source devel/setup.bash
+```
+Make sure that 
+```
+export PATH="/home/chris/VREP":$PATH
+```
+is in your .bashrc file
+
+Start CoppeliaSim in root folder with
+```
+coppeliaSim.sh
+``` 
+Add your URDF by clicking Add-ons -> URDF importer and add the a1 URDF file
+
+
+
 ## Credits
  - mike4192: https://github.com/mike4192/spotMicro
  - Unitree Robotics: https://github.com/unitreerobotics/a1_ros
