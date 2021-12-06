@@ -30,6 +30,13 @@ After all the nodes have started, you can start using your joystick to control t
 
 If the robot happens to be on its back when you start Gazebo, simply press CTRL + R. The simulator will reset the simulation and you're set to use the robot using your joystick.
 
+## Install Joystick functionality
+On Ubuntu install the ROS Joystick extension with the following command
+```
+sudo apt-get install ros-noetic-joy
+```
+Now you are able to controll the robot with your controller.
+
 ## Credits
  - mike4192: https://github.com/mike4192/spotMicro
  - Unitree Robotics: https://github.com/unitreerobotics/a1_ros
