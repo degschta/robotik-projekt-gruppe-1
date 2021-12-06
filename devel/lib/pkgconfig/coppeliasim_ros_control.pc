@@ -1,8 +1,0 @@
-prefix=/home/lukas/a1_sim_py/devel
-
-Name: coppeliasim_ros_control
-Description: Description of coppeliasim_ros_control
-Version: 1.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: roscpp rosconsole roslib roscpp rosconsole roslib
