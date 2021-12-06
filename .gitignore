@@ -1,2 +1,4 @@
 devel
 .catkin_workspace
+src/CMakeChache.txt
+build/Makefile
