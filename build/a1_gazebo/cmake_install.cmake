@@ -1,8 +1,8 @@
-# Install script for directory: /home/lukas/a1_sim_py/src/a1_gazebo
+# Install script for directory: /home/lukas/robotik-projekt-gruppe-1/src/a1_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lukas/a1_sim_py/install")
+  set(CMAKE_INSTALL_PREFIX "/home/lukas/robotik-projekt-gruppe-1/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

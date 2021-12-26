@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lukas/a1_sim_py/src
+CMAKE_SOURCE_DIR = /home/lukas/robotik-projekt-gruppe-1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lukas/a1_sim_py/build
+CMAKE_BINARY_DIR = /home/lukas/robotik-projekt-gruppe-1/build
 
 # Utility rule file for std_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ a1_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/build: std_msgs_gen
 .PHONY : a1_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 
 a1_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	cd /home/lukas/a1_sim_py/build/a1_controller && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/lukas/robotik-projekt-gruppe-1/build/a1_controller && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : a1_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 a1_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend:
-	cd /home/lukas/a1_sim_py/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lukas/a1_sim_py/src /home/lukas/a1_sim_py/src/a1_controller /home/lukas/a1_sim_py/build /home/lukas/a1_sim_py/build/a1_controller /home/lukas/a1_sim_py/build/a1_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lukas/robotik-projekt-gruppe-1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lukas/robotik-projekt-gruppe-1/src /home/lukas/robotik-projekt-gruppe-1/src/a1_controller /home/lukas/robotik-projekt-gruppe-1/build /home/lukas/robotik-projekt-gruppe-1/build/a1_controller /home/lukas/robotik-projekt-gruppe-1/build/a1_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : a1_controller/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
 

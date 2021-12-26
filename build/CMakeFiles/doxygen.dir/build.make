@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lukas/a1_sim_py/src
+CMAKE_SOURCE_DIR = /home/lukas/robotik-projekt-gruppe-1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lukas/a1_sim_py/build
+CMAKE_BINARY_DIR = /home/lukas/robotik-projekt-gruppe-1/build
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/lukas/a1_sim_py/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lukas/a1_sim_py/src /home/lukas/a1_sim_py/src /home/lukas/a1_sim_py/build /home/lukas/a1_sim_py/build /home/lukas/a1_sim_py/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lukas/robotik-projekt-gruppe-1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lukas/robotik-projekt-gruppe-1/src /home/lukas/robotik-projekt-gruppe-1/src /home/lukas/robotik-projekt-gruppe-1/build /home/lukas/robotik-projekt-gruppe-1/build /home/lukas/robotik-projekt-gruppe-1/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

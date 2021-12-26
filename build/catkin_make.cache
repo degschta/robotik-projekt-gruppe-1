@@ -1,2 +1,2 @@
-a1:a1_controller:a1_description:a1_gazebo:a1_joystick:coppeliasim_ros_control
--DCATKIN_DEVEL_PREFIX=/home/lukas/a1_sim_py/devel -DCMAKE_INSTALL_PREFIX=/home/lukas/a1_sim_py/install -G Unix Makefiles
+a1:a1_controller:a1_description:a1_gazebo:a1_joystick
+-DCATKIN_DEVEL_PREFIX=/home/lukas/robotik-projekt-gruppe-1/devel -DCMAKE_INSTALL_PREFIX=/home/lukas/robotik-projekt-gruppe-1/install -G Unix Makefiles
