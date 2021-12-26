@@ -58,8 +58,25 @@ coppeliaSim.sh
 ``` 
 Add your URDF by clicking Add-ons -> URDF importer and add the a1 URDF file
 
+## Control Unitree A1 in CoppeliaSim
+In order to be able to simulate and control Unitree A1 robot in CoppeliaSim, you have to follow these steps:
 
-
+Open a terminal, navigate to the project folder, and execute
+```
+source devel/setup.bash
+roslaunch a1_joystick ramped_joystick.launch
+```
+Then, open another terminal and type in
+```
+source devel/setup.bash
+roslaunch a1_controller robot_controller.launch
+```
+Finally, open another terminal and start CoppeliaSim:
+```
+source devel/setup.bash
+coppeliaSim.sh
+```
+Once CoppeliaSim is loaded, open the scene 'coppelia_scene/a1_coppelia.ttt'
 ## Credits
  - mike4192: https://github.com/mike4192/spotMicro
  - Unitree Robotics: https://github.com/unitreerobotics/a1_ros
