@@ -96,8 +96,9 @@ class Robot(object):
         self.currentController.updateStateCommand(msg, self.state, self.command)
 
     def imu_orientation(self,msg):
-        q = msg.orientation
-        rpy_angles = tf.transformations.euler_from_quaternion([q.x,q.y,q.z,q.w])
+        #q = msg.orientation
+        #rpy_angles = tf.transformations.euler_from_quaternion([q.x,q.y,q.z,q.w])
+        rpy_angles = msg.data
         self.state.imu_roll = rpy_angles[0]
         self.state.imu_pitch = rpy_angles[1]
 

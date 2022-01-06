@@ -6,7 +6,7 @@ import rospy
 from sensor_msgs.msg import Joy,Imu
 from RobotController import RobotController
 from InverseKinematics import robot_IK
-from std_msgs.msg import Float64
+from std_msgs.msg import Float64, Float64MultiArray
 
 USE_IMU = True
 RATE = 60
@@ -38,7 +38,8 @@ for i in range(len(command_topics)):
     publishers.append(rospy.Publisher(command_topics[i], Float64, queue_size = 0))
 
 if USE_IMU:
-    rospy.Subscriber("a1_imu/base_link_orientation",Imu,a1_robot.imu_orientation)
+    #rospy.Subscriber("a1_imu/base_link_orientation",Imu,a1_robot.imu_orientation)
+    rospy.Subscriber("imu_euler_angles", Float64MultiArray, a1_robot.imu_orientation)
 rospy.Subscriber("a1_joy/joy_ramped",Joy,a1_robot.joystick_command)
 
 rate = rospy.Rate(RATE)
