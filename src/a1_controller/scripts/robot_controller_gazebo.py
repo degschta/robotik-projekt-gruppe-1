@@ -40,7 +40,10 @@ for i in range(len(command_topics)):
 if USE_IMU:
     #rospy.Subscriber("a1_imu/base_link_orientation",Imu,a1_robot.imu_orientation)
     rospy.Subscriber("imu_euler_angles", Float64MultiArray, a1_robot.imu_orientation)
+    print(a1_robot.imu_orientation)
 rospy.Subscriber("a1_joy/joy_ramped",Joy,a1_robot.joystick_command)
+
+
 
 rate = rospy.Rate(RATE)
 
