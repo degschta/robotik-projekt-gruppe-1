@@ -11,8 +11,8 @@ class RestController(object):
         self.def_stance = default_stance
 
         # TODO: tune kp, ki and kd
-        #                                     kp     ki    kd
-        self.pid_controller = PID_controller(0.75, 2.29, 0.0)
+        #                                     kp=0.75     ki=2.29    kd=0.0
+        self.pid_controller = PID_controller(0.1, 0.0, 0.0)
         self.use_imu = False
         self.use_button = True
         self.pid_controller.reset()

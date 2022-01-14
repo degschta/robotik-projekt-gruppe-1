@@ -1,0 +1,1 @@
+- simulation.launch: delete empty world part and add simulation.launch to run_a1_coppelia.sh
